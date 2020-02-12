@@ -1,7 +1,7 @@
 <template id="app-frame">
     <div class="app-frame">
         <header>
-            <span>JavalinVue demo app</span>
+            <span>Grid Drafter</span>
             <span v-if="$javalin.state.currentUser">Current user: '{{$javalin.state.currentUser}}'</span>
         </header>
         <slot></slot>

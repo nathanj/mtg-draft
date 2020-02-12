@@ -1,24 +1,12 @@
-# javalinvue-example
+# mtg cube grid drafter
 
-#### Contains source code for https://javalin.io/tutorials/simple-frontends-with-javalin-and-vue
+This is my little project to play around with Vue.js. It allows two people to
+grid draft a magic cube over websockets. It is useable but not very polished.
 
-## Project folder structure
+See it in action at https://draft.bitcrafter.net
 
-```
-javalinvue-example
-├───src
-│   └─── main
-│       └───kotlin
-│           ├───javalinvue
-│           │   ├───UserController.kt
-│           │   └───Main.kt
-│           └───resources
-│               ├───components
-│               │   └───app-frame.vue
-│               ├───components
-│               │   ├───not-found.vue
-│               │   ├───user-overview.vue
-│               │   └───user-profile.vue
-│               └───layout.html
-└───pom.xml
-```
+
+## Running Locally
+
+1. Download the Oracle Cards database from https://scryfall.com/docs/api/bulk-data
+2. `./gradlew run`
