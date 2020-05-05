@@ -548,7 +548,7 @@ Wasteland</textarea>
                                 <input type="submit" name="submit" value="Start Draft!"/>
                         </form>
 
-<a href="https://github.com/nathanj/draft/">Source Code</a>
+<a href="https://github.com/nathanj/mtg-draft/">Source Code</a>
 
 <p>Card images provided by <a href="https://scryfall.com">Scryfall</a></p>
 
